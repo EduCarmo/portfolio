@@ -18,7 +18,6 @@ const HeroSection = () => {
               wrapper="span"
               speed={1}
               repeat={Infinity}
-              className="inline-block min-h-[30px] sm:min-h-[30px] lg:min-h-[30px]"
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
@@ -38,7 +37,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-4 place-self-center mt-4 lg:text-xl">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] sm:w-[250px] sm:h-[250px] lg:w-[300px] lg:h-[300px] relative">
             <Image
               src="/images/eduardo.png"
               alt="Eduardo Carmo"
