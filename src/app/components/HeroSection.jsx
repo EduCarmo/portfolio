@@ -9,22 +9,21 @@ const HeroSection = () => {
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12 ">
-        <div className="col-span-7 place-self-center text-center sm:text-left ">
-          <h1 className="text-white mb-4 text-3xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-600 to-blue-400">
+        <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start ">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r  from-blue-900 via-blue-600 to-blue-400">
               Olá, Eu sou{" "}
             </span>
             <br />
             <TypeAnimation
-              sequence={["Eduardo Carmo", 1000, "Desenvolvedor Full Stack", 1000]}
+              sequence={["Eduardo", 1000, "Desenvolvedor Web", 1000]}
               wrapper="span"
               speed={1}
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-lg mb-6">
-          Sou Eduardo Carmo, desenvolvedor full stack formado em Análise e Desenvolvimento de Sistemas. 
-          Tenho paixão por transformar ideias em soluções eficientes e funcionais
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          Sou Eduardo Carmo, desenvolvedor full stack.
           </p>
           <div className="flex justify-center sm:justify-start gap-4 text-4xl text-[#ADB7BE] mb-6 flex-wrap">
             <FaHtml5 className="text-orange-500" title="HTML5"/>
@@ -49,8 +48,8 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:text-xl">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] sm:w-[250px] sm:h-[250px] lg:w-[400px] lg:h-[400px] relative">
+        <div className="col-span-4 place-self-center mt-4 lg:mt-0">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/eduardo.png"
               alt="Eduardo Carmo"
