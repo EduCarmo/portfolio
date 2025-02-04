@@ -53,7 +53,7 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="sobre">
+    <section className="py-24 text-white" id="sobre">
       <div
         className="md:grid md:grid-cols-2 gap-8 
             flex flex-col items-center py-8 px-4 xl:gap-16 
